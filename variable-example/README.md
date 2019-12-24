@@ -1,4 +1,5 @@
 Steps for running this demo.
+
 ```
 terraform init
 terraform plan -var-file=values.tfvars -out=mytfplan
@@ -10,5 +11,5 @@ You should destroy everything which you have created part of this example.
 Command for destroy
 
 ```
-terraform destory -var-file=values.tfvars
+terraform destroy -var-file=values.tfvars
 ```
