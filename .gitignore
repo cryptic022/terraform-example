@@ -1,0 +1,17 @@
+.DS_Store
+*.dll
+*.exe
+example.tf
+terraform.tfplan
+terraform.tfstate
+bin/
+*.backup
+.terraform/
+./*.tfstate
+*.tfstate
+*.tar.gz
+*.zip
+.envrc
+.env
+*.tfstate*
+*.tfplan*
