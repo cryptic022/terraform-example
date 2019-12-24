@@ -10,6 +10,9 @@ provider "aws" {
 resource "aws_s3_bucket" "variable_bucket" {
   bucket = var.bucket_name
   acl    = "private"
+  versioning {
+    enabled = true
+  }
 }
 
 resource "aws_dynamodb_table" "tf_lock" {
