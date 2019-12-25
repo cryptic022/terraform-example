@@ -27,3 +27,4 @@ module "customer-module" {
   source                       = "../../customer-module"
   customer-kinesis-stream-name = "terraform-kinesis-test"
 }
+
